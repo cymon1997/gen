@@ -1,4 +1,4 @@
-- v1.0 (29/12/2021)
+- v1.0.0 (29/12/2021)
     - Update guregu/null library to latest version gopkg.in/guregu/v4
     - Change satori/uuid implementation to use github.com/google/uuid
 - v0.9.27 (08/04/2020)

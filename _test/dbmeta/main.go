@@ -30,7 +30,7 @@ func init() {
 	goopt.Description = func() string {
 		return "ORM and RESTful meta data viewer for SQl databases"
 	}
-	goopt.Version = "v1.0 (29/12/2021)"
+	goopt.Version = "v1.0.0 (29/12/2021)"
 	goopt.Summary = `dbmeta [-v] --sqltype=mysql --connstr "user:password@/dbname" --database <databaseName> 
 
            sqltype - sql database type such as [ mysql, mssql, postgres, sqlite, etc. ]

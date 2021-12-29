@@ -13,7 +13,7 @@
 
 ### Handling Null Columns
 When columns within a db table are nullable, `gen` can generate code with nullable types using the `--guregu` flag, or it can use the default go type.
-For more information on the types used check out [guregu null](https://github.com/guregu/null). 
+For more information on the types used check out [guregu null](https://gopkg.in/guregu/null.v4). 
 
     
 ```go

@@ -7,7 +7,7 @@ import (
     "{{.daoFQPN}}"
 
 	"github.com/gin-gonic/gin"
-	{{if .UseGuregu}} "github.com/guregu/null" {{end}}
+	{{if .UseGuregu}} "gopkg.in/guregu/null.v4" {{end}}
 	"github.com/julienschmidt/httprouter"
 )
 

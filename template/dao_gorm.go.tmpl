@@ -6,8 +6,8 @@ import (
 
 	"{{.modelFQPN}}"
 
-    {{if .UseGuregu}} "github.com/guregu/null" {{end}}
-    "github.com/satori/go.uuid"
+    {{if .UseGuregu}} "gopkg.in/guregu/null.v4" {{end}}
+    "github.com/google/uuid"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
     "database/sql"
     "time"
 
-    "github.com/satori/go.uuid"
-    {{if .UseGuregu}} "github.com/guregu/null" {{end}}
+    "github.com/google/uuid"
+    {{if .UseGuregu}} "gopkg.in/guregu/null.v4" {{end}}
 	"gorm.io/gorm"
 )
 
